@@ -1,4 +1,5 @@
-# Task Management App
+# LostLink App Backend
+<!-- # Task Management App
 
 This project is a **Task Management App** built with **Node.js**, **Express**, and **MongoDB**. The app features a secure user authentication system, task management capabilities, and proper error handling, demonstrating robust backend development practices using the **MVC (Model-View-Controller) architecture**.
 
@@ -151,4 +152,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 *Thank you for checking out my project! Feel free to contribute or reach out for any inquiries.* 🚀
-
+ -->
