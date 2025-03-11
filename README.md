@@ -1,16 +1,19 @@
 # LostLink App Backend
-<!-- # Task Management App
 
-This project is a **Task Management App** built with **Node.js**, **Express**, and **MongoDB**. The app features a secure user authentication system, task management capabilities, and proper error handling, demonstrating robust backend development practices using the **MVC (Model-View-Controller) architecture**.
+LostLink is a Lost & Found App with **Node.js**, **Express**, and **MongoDB**. The platform allows users to post lost and found items, making it easier to reconnect people with their belongings. It features a secure user authentication system and robust error handling, all following the MVC (Model-View-Controller) architecture for clean and maintainable backend development. Future updates aim to include a WhatsApp chat system for direct communication between users and many more.
+
 
 ## 🚀 Features
 
 - **User Authentication**: Register, login, and logout functionality with **JWT** and secure password hashing using **bcrypt**.
-- **Task Management**: Users can create, update, and delete tasks. Task status can be toggled to indicate completion.
+- **Lost & Found Management**: Users can post about lost and found items, update their status, manage posts and delete post.
+- **Search & Filtering**: Easily find lost items using search functionality and category-based filtering.
 - **Error Handling**: Comprehensive error handling to manage various edge cases efficiently.
 - **Cookies & Authentication**: Secure cookies to handle user sessions, compliant with development and production environments.
 - **Database Integration**: Data persistence using **MongoDB** with **Mongoose**.
 - **Environment Configuration**: Secure configuration management using **dotenv**.
+- **Future Feature**: Integration of a WhatsApp chat system for direct communication between users, AI-powered features, and many more.
+
 
 ## 🏛️ Architecture
 
@@ -35,7 +38,7 @@ The app follows the **MVC (Model-View-Controller) architecture**, which separate
    src
 │
 ├── controllers          # Controllers for handling business logic
-│   ├── task.js          # Task controller logic
+│   ├── item.js          # Item controller logic
 │   └── user.js          # User controller logic
 │
 ├── middlewares          # Middleware functions for authentication and error handling
@@ -43,11 +46,11 @@ The app follows the **MVC (Model-View-Controller) architecture**, which separate
 │   └── error.js         # Error handling middleware
 │
 ├── models               # Models for data schema and database interaction
-│   ├── task.js          # Task schema and model
+│   ├── item.js          # Item schema and model
 │   └── user.js          # User schema and model
 │
 ├── routes               # Routes for defining API endpoints
-│   ├── task.js          # Task routes
+│   ├── item.js          # Item routes
 │   └── user.js          # User routes
 │
 ├── data                 # Database connection configuration
@@ -66,8 +69,8 @@ The app follows the **MVC (Model-View-Controller) architecture**, which separate
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/shaiful191/Task-Management-App-With-Authentication.git
-   cd Task-Management-App-With-Authentication
+   git clone https://github.com/shaiful191/LostLink
+   cd LostLink
    
 2. **Install dependencies**:
    ```bash
@@ -92,6 +95,7 @@ The app follows the **MVC (Model-View-Controller) architecture**, which separate
    npm start
    ```
 
+<!--
 
 ## 🧪 API Endpoints
 
@@ -137,6 +141,8 @@ The app follows the **MVC (Model-View-Controller) architecture**, which separate
 
 ---
 
+-->
+
 ## 📬 Contact
 
 - **Author**: Shaiful Islam
@@ -152,4 +158,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 *Thank you for checking out my project! Feel free to contribute or reach out for any inquiries.* 🚀
- -->
+
