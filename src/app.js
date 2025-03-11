@@ -2,8 +2,7 @@ import express from 'express'
 import cookieParser from 'cookie-parser';
 import 'dotenv/config';
 import userRouter from './routes/user.js';
-import itemRouter from './routes/item.js';
-import lostPersonRouter from './routes/lostPerson.js';
+import itemRouter from './routes/item.js'; 
 import { errorMiddleware } from './middlewares/error.js';
 import cors from "cors";
 
@@ -22,8 +21,7 @@ app.use(
 
 //Using routes:
 app.use('/api/v1/user', userRouter);
-app.use('/api/v1/items', itemRouter);
-app.use('/api/v1/lostPerson', lostPersonRouter);
+app.use('/api/v1/items', itemRouter); 
 
 //testing api:
 app.get('/', (req, res) => {
