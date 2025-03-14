@@ -63,58 +63,24 @@ The app follows the **MVC (Model-View-Controller) architecture**, which separate
   ```
 
 
-
-## ⚙️ Installation & Setup
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/shaiful191/LostLink
-   cd LostLink
-   
-2. **Install dependencies**:
-   ```bash
-   npm install
-   
-3. **Configure environment variables**:
-   - Create a .env file in the root of the project and add the following:
-   ```bash
-   PORT=8000
-   MONGO_URI=mongodb://localhost:27017/
-   JWT_SECRET=your-secret-key
-   NODE_ENV=Development
-   ```
-
-5. **Start the application**:
-   - For development:
-   ```bash
-   npm run dev
-   ```
-   - For production:
-   ```bash
-   npm start
-   ```
-
-<!--
-
 ## 🧪 API Endpoints
 
 ### User Routes
 
-- **POST** `/api/v1/users/register` - Register a new user
-- **POST** `/api/v1/users/login` - Log in a user
-- **GET** `/api/v1/users/logout` - Log out a user
-- **GET** `/api/v1/users/profile` - Get user profile (protected)
+- **POST** `/api/v1/user/register` - Register a new user
+- **POST** `/api/v1/user/login` - Log in a user
+- **GET** `/api/v1/user/logout` - Log out a user
+- **GET** `/api/v1/user/profile` - Get user profile (protected)
 
 ### Task Routes
 
-- **POST** `/api/v1/task/create` - Create a new task (protected)
-- **GET** `/api/v1/task/my` - Get all tasks for the logged-in user (protected)
-- **PUT** `/api/v1/task/:id` - Toggle task completion status (protected)
-- **DELETE** `/api/v1/task/:id` - Delete a task (protected)
+- **POST** `/api/v1/items` - Create a new post (protected)
+- **GET** `/api/v1/items` - Get all items.
+- **GET** `/api/v1/items/:id` - Get any specific item.
+- **PATCH** `/api/v1/items/:id` - Update the item information (protected)
+- **DELETE** `/api/v1/items/:id` - Delete a task (protected)
 
 ---
-
--->
 
 
 ## 💡 Key Concepts Learned
