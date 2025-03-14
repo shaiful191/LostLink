@@ -12,7 +12,6 @@ LostLink is a Lost & Found App with **Node.js**, **Express**, and **MongoDB**. T
 - **Cookies & Authentication**: Secure cookies to handle user sessions, compliant with development and production environments.
 - **Database Integration**: Data persistence using **MongoDB** with **Mongoose**.
 - **Environment Configuration**: Secure configuration management using **dotenv**.
-- **Future Feature**: Integration of a WhatsApp chat system for direct communication between users, AI-powered features, and many more.
 
 
 ## 🏛️ Architecture
@@ -115,14 +114,7 @@ The app follows the **MVC (Model-View-Controller) architecture**, which separate
 
 ---
 
-## 🔒 Security Features
-
-- **Password Hashing**: Using **bcrypt** to ensure secure storage of user passwords.
-- **JWT**: Secure token-based authentication for managing user sessions.
-- **CORS**: Configured to restrict API access to specific frontend URLs.
-- **Cookie Handling**: HttpOnly and secure flags used for cookies in production.
-
----
+-->
 
 ## 💡 Key Concepts Learned
 
@@ -135,13 +127,13 @@ The app follows the **MVC (Model-View-Controller) architecture**, which separate
 
 ## 📜 Future Improvements
 
-- Enhancing task functionality with reminders and categorization.
-- Integrating unit and integration testing for API endpoints.
+- Integration of a WhatsApp chat system for direct communication between users.
+- Lost person finding option.
+- AI-powered features.
 - Optimizing performance with caching strategies.
 
 ---
 
--->
 
 ## 📬 Contact
 
