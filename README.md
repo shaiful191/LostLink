@@ -116,6 +116,7 @@ The app follows the **MVC (Model-View-Controller) architecture**, which separate
 
 -->
 
+
 ## 💡 Key Concepts Learned
 
 - Structuring a **Node.js** project using **MVC architecture** for scalability and maintainability.
@@ -134,6 +135,11 @@ The app follows the **MVC (Model-View-Controller) architecture**, which separate
 
 ---
 
+## 🌐 Live Demo
+
+You can access the live app here: [https://lostlink-40kc.onrender.com](https://lostlink-40kc.onrender.com/)
+
+---
 
 ## 📬 Contact
 
