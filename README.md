@@ -72,7 +72,7 @@ The app follows the **MVC (Model-View-Controller) architecture**, which separate
 - **GET** `/api/v1/user/logout` - Log out a user
 - **GET** `/api/v1/user/profile` - Get user profile (protected)
 
-### Task Routes
+### Item Routes
 
 - **POST** `/api/v1/items` - Create a new post (protected)
 - **GET** `/api/v1/items` - Get all items.
