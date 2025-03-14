@@ -29,17 +29,26 @@ export const createItem = async (req, res,next) => {
   }
 };
 
+
+
 export const getItems = async (req, res, next) => {
   try {
-    const items = await Item.find({});
-    res.status(200).json({
-      success: true,
-      items,
-    })
+    const { category } = req.query;
+
+ 
+    const query = {};
+    if (category) {
+      query.category = category.toLowerCase();
+    }
+
+    const items = await Item.find(query);
+    res.status(200).json(items);
   } catch (error) {
     next(error);
   }
 };
+
+
 
 export const updateItem = async (req, res, next) => {
 
