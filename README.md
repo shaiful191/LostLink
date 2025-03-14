@@ -77,6 +77,8 @@ The app follows the **MVC (Model-View-Controller) architecture**, which separate
 - **POST** `/api/v1/items` - Create a new post (protected)
 - **GET** `/api/v1/items` - Get all items.
 - **GET** `/api/v1/items/:id` - Get any specific item.
+- **GET** `/api/v1/items?category=lost` - Get all lost items.
+- **GET** `/api/v1/items?category=found` - Get all found items. 
 - **PATCH** `/api/v1/items/:id` - Update the item information (protected)
 - **DELETE** `/api/v1/items/:id` - Delete a task (protected)
 
